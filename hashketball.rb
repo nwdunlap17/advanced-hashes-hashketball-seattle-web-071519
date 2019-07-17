@@ -26,11 +26,11 @@ def most_thing_player
 end
 
 def big_shoe_rebounds
-  return most_thing_player{:shoe}[0][:rebounds]
+  return most_thing_player{:shoe}   [0][:rebounds]
 end
 
 def most_points_scored
-  return most_thing_player{:points}[1]
+  return most_thing_player{:points}   [1]
 end
 
 def player_with_longest_name
